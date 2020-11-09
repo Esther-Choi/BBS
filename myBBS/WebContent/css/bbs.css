@@ -1,0 +1,124 @@
+html {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background: linear-gradient(to right, #5659a6, #7459b3, #9659c3, #8559bb);
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Titillium Web", sans-serif;
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  margin-right: 100px;
+}
+
+.logo i {
+  margin-right: 10px;
+}
+
+.menu {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 17px;
+  margin-right: 100px;
+}
+
+.menu:hover {
+	  color: #d7d8ee;
+	
+}
+
+.body {
+  background-color: #f6f6f8;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.table {
+  text-align: center;
+  width: 90vw;
+  border-top: 1px solid #d7d8ee;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f6f6f8;
+  padding: 2.5vh;
+  align-items: center;
+  color: #5b59a8;
+  font-weight: lighter;
+}
+
+td {
+  border-top: 5px solid #f6f6f8;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2.5vh;
+  color: #626263;
+}
+
+.title {
+	  color: #626263;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.write {
+  background-color: rgb(67, 221, 193);
+  padding: 10px 20px;
+  width: 50px;
+  border-radius: 7px;
+}
+
+.btn {
+  color: #5659a6;
+}
+
+.btn:hover {
+  color: #9659c3;
+}
+
+.prev {
+  position: absolute;
+  left: 6%;
+}
+
+.next {
+  margin-right: 25px;
+}
+
+.write:hover {
+  background-color: #a3a5d6;
+}
+
+@media screen and (max-height: 839px) {
+  th,
+  td {
+    padding: 14px;
+  }
+}

@@ -1,0 +1,79 @@
+html {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background: linear-gradient(to right, #5659a6, #7459b3, #9659c3, #8559bb);
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Titillium Web", sans-serif;
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  margin-right: 100px;
+}
+
+.logo i {
+  margin-right: 10px;
+}
+
+.menu {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 17px;
+  margin-right: 100px;
+}
+
+.menu:hover {
+		  color: #d7d8ee;
+	
+}
+
+.container {
+  height: calc(100vh - 100px);
+  background-color: #f6f6f8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.introduce {
+   background: radial-gradient(#9659c3 20%, #f6f6f8 80%, #f6f6f8 20%);
+  width: 100%;
+  height: calc(100vh - 100px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+span {
+  font-size: 30px;
+  color: white;
+  font-family: "Sunflower", sans-serif;
+}
+
+.italic {
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 60px;
+}
+
+.span {
+  margin-top: 50px;
+}
